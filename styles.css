@@ -1,0 +1,400 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+.container1000 {
+
+    width: 1000px;
+    margin: auto;
+
+}
+
+.container1350 {
+
+    width: 1350px;
+    margin: auto;
+
+}
+
+header nav {
+
+    background-color: white;
+    padding: 20px 20px;
+    height: 5vh;
+
+}
+
+header nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+header nav img {
+
+    width: 70px;
+    height: 50px;
+    margin: 0px 20px;
+
+}
+
+header nav li, header nav img {
+
+    float: left;
+
+}
+
+header nav li a {
+
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.carrousel {
+
+    height: 91vh;
+    background: url("https://www.ps4wallpapers.com/wp-content/uploads/2017/12/PS4Wallpapers.com_5a2c64ab936d8_paladins_halloween_skins_wallpaper_by_julia_cs-dbpfcu5.jpg") rgba(20, 19, 43, 1);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.carrousel img {
+
+    margin: auto 0;
+    width: 40vh;
+
+}
+
+.icon-bar {
+
+    width: 100%;
+    background-color: #EFEFEF;
+    padding: 20px 0px;
+
+}
+
+.icon-bar i {
+
+    color: rgba(35, 33, 75, 1);
+    padding: 12px;
+    font-size: 23px;
+    background-color: unset;
+
+}
+
+.icon-bar ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+.icon-bar ul li {
+
+    display: flex;
+    align-items: center;
+    color: #8f8f8f;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.contentVideo {
+
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+.contentVideo iframe {
+
+    float: left;
+    width: 50%;
+
+}
+
+.contentVideo .text {
+
+    text-align: center;
+    width: 50%;
+
+}
+
+.contentVideo .text h3 {
+
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #1B1E28;
+    font-weight: 700;
+
+}
+
+.contentVideo .text p {
+
+    color: #8f8f8f;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.contentBot {
+
+    width: 100%;
+    background-color: #EFEFEF ;
+    position: relative;
+    background-color: transparent;
+    padding: 50px 0px 100px 0px;
+
+}
+
+.contentBot::after {
+
+    display: block;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #f4f4f4;
+    bottom: 0;
+    z-index: -1;
+    clip-path: polygon(100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
+
+}
+
+.sideImgRight {
+
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: -50%;
+
+}
+
+.sideImgLeft {
+
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: -50%;
+
+}
+
+.sideImgLeft img, .sideImgRight img {
+
+    height: 600px;
+
+}
+
+footer {
+
+    margin-top: 50px;
+    background-color: rgba(35, 33, 75, 1);
+    color: white;
+    padding: 50px 0px;
+    position: relative;
+
+}
+
+footer::before {
+
+    display: block;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(35, 33, 75, 1);
+    top: -99.5%;
+    clip-path: polygon(100% 84%, 0 100%, 100% 100%);
+
+
+
+}
+
+footer h6 {
+
+    margin: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
+footer .container1350 {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer .footerColumns {
+
+    width: 25%;
+    
+    
+}
+
+footer .footerColumns img {
+
+    width: 250px;
+
+}
+
+footer .footerColumns p {
+
+    margin-top: 20px;
+    font-size: 12px;
+
+}
+
+footer .footerColumns h3 {
+
+    font-size: 20px;
+
+}
+
+footer .footerColumns .whiteStrip {
+
+    border-top: 3px solid white;
+    margin: 5px 0px 30px 0px;
+    width: 20%;
+
+}
+
+footer .footerColumns i {
+
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 15px;
+
+}
+
+footer .footerColumns h6 {
+
+    display: inline-block;
+    font-size: 12px;
+
+}
+
+.content  {
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.content-side {
+
+    height: 300px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.content-side h3 {
+
+    padding: 0px 30px;
+    color: #1B1E28;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+
+
+}
+
+.content-side i {
+
+    color: #8f8f8f;
+
+}
+
+.content-side img {
+
+    max-height: -webkit-fill-available;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222); 
+
+}
+
+.baseline {
+
+    align-self: baseline;
+
+}
+
+.flex-end {
+
+    align-self: flex-end;
+
+}
+
+
+.arrow-bottom {
+
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(135deg);
+    margin-bottom: 30px;
+
+}
+
+.bounce {
+
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
