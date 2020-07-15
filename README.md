@@ -15,6 +15,8 @@ Este projeto é apenas um site estático para o bot de discord "TheMoji".
 
 O site ainda não foi desenvolvido para monitores menores e dispositivos mobiles.
 
+Você pode acessá-lo clicando <a href="https://thrnk.github.io/TheMoji/">aqui</a>! :wave: 
+
 ---
 
 <p align="center">
