@@ -22,5 +22,6 @@ Você pode convidar o bot para o seu servidor clicando <a href="https://discord.
 ---
 
 <p align="center">
+  <a href="www.linkedin.com/in/thomas-r-reinke" ><img src="https://img.shields.io/badge/linkedin-Thomas%20Reinke-0076b5"></a>
   <a href="https://github.com/ThRnk" ><img src="https://img.shields.io/badge/github-ThRnk-24292e"></a>
 </p>
