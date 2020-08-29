@@ -24,6 +24,23 @@ body {
 
 }
 
+.title {
+
+    font-size: 20px;
+    margin: 50px 0px;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #8f8f8f;
+    font-weight: bold;
+
+}
+
+header {
+
+    min-height: 84px;
+
+}
+
 header nav {
 
     background-color: white;
@@ -44,7 +61,6 @@ header nav ul {
 
 header nav img {
 
-    width: 70px;
     height: 50px;
     margin: 0px 20px;
 
@@ -82,7 +98,23 @@ header nav li a {
 
 }
 
-.carrousel img {
+.carrousel-notes {
+
+    height: 91vh;
+    background: url("https://pbs.twimg.com/media/EazNATEXsAEIux-.jpg") rgba(20, 19, 43, 1);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.carrousel img, .carrousel-notes img {
 
     margin: auto 0;
     width: 40vh;
@@ -128,7 +160,7 @@ header nav li a {
 
 }
 
-.contentVideo {
+.content-video {
 
     margin: 40px 0px;
     display: flex;
@@ -136,21 +168,21 @@ header nav li a {
 
 }
 
-.contentVideo iframe {
+.content-video iframe {
 
     float: left;
     width: 50%;
 
 }
 
-.contentVideo .text {
+.content-video .text {
 
     text-align: center;
     width: 50%;
 
 }
 
-.contentVideo .text h3 {
+.content-video .text h3 {
 
     letter-spacing: 2px;
     font-size: 14px;
@@ -159,7 +191,7 @@ header nav li a {
 
 }
 
-.contentVideo .text p {
+.content-video .text p {
 
     color: #8f8f8f;
     letter-spacing: 2px;
@@ -168,7 +200,7 @@ header nav li a {
 
 }
 
-.contentBot {
+.content-bot {
 
     width: 100%;
     background-color: #EFEFEF ;
@@ -178,7 +210,7 @@ header nav li a {
 
 }
 
-.contentBot::after {
+.content-bot::after {
 
     display: block;
     content: "";
@@ -192,7 +224,7 @@ header nav li a {
 
 }
 
-.sideImgRight {
+.side-img-right {
 
     display: block;
     position: absolute;
@@ -202,7 +234,7 @@ header nav li a {
 
 }
 
-.sideImgLeft {
+.side-img-left {
 
     display: block;
     position: absolute;
@@ -212,7 +244,7 @@ header nav li a {
 
 }
 
-.sideImgLeft img, .sideImgRight img {
+.side-img-left img, .side-img-right img {
 
     height: 600px;
 
@@ -350,7 +382,20 @@ footer .footerColumns h6 {
 
     max-height: -webkit-fill-available;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter:         drop-shadow(5px 5px 5px #222); 
+    filter:         drop-shadow(5px 5px 5px #222);
+    border-radius: 5px; 
+
+}
+
+.resizeable {
+
+    transition: 1s;
+
+}
+
+.resizeable:hover {
+
+    transform: scale(1.2);
 
 }
 
@@ -366,6 +411,12 @@ footer .footerColumns h6 {
 
 }
 
+.correct i {
+
+    color: rgba(35, 33, 75, 1) !important;
+    font-size: 30px;
+
+}
 
 .arrow-bottom {
 

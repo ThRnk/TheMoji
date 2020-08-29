@@ -1,0 +1,75 @@
+.notes {
+
+    width: 100%;
+
+}
+
+.notes h1 {
+
+    text-align: left;
+    color: #1B1E28;
+    letter-spacing: 2px;
+    font-size: 14px;
+    border-bottom: 1px solid #1B1E28;
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+
+.notesChampions {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.notesChampions img {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin: 0px 10px;
+
+}
+
+.notesSkins {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.notesSkins img {
+
+    margin: 0px 10px;
+
+}
+
+.gallery-cell {
+
+    width: 66%;
+    height: 300px;
+    margin-right: 10px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+}
+  
+.flickity-button {
+
+    background: rgba(35, 33, 75, 1) !important;
+
+}
+
+.flickity-page-dots .dot {
+    height: 4px !important;
+    width: 40px !important;
+    margin: 0;
+    border-radius: 0 !important;
+}
+
+.flickity-button-icon {
+
+    color: white !important;
+
+}
